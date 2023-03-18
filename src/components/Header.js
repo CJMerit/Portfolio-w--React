@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div className="d-flex flex-row">
-            <p>Header to go here</p>
+            <h1>Portfolio for Connor McGrath</h1>
             <nav>
                 <Navigation />
             </nav>

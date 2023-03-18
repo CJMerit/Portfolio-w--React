@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import projects from './projects'
+import projects from '../projects'
 
 const Navigation = () => {
     const [page, setPage] = useState('Fire Food')
