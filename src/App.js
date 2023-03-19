@@ -6,13 +6,13 @@ import Project from './components/Project';
 import projects from './utils/projects'
 
 function App() {
-  return (
-    <div className="container-fluid">
-      <Header projects={projects}/>
-      <Project projects={projects}/>
-      <Footer />
-    </div>
-  )
+    return (
+        <div>
+            <Header projects={projects}/>
+            <Project projects={projects}/>
+            <Footer />
+        </div>
+    )
 }
 
 export default App;
