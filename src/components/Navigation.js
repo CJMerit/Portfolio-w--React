@@ -4,7 +4,7 @@ const Navigation = () => {
     const [page, setPage] = useState('Fire Food')
 
     return (
-        <p>Navigation to go here</p>
+        <p className='text-right'>Navigation to go here</p>
     )
     
 }

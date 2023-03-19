@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import github from '../utils/images/github.png';
+import linkedin from '../utils/images/linkedin.png';
 
 const Footer = () => {
 
@@ -6,10 +8,10 @@ const Footer = () => {
     return (
         <div className='container-fluid'>
             <a href='https://github.com/CJMerit'>
-                <img src='src\utils\images\github.png' alternative='github logo'></img>
+                <img src={github} alternative='github logo' style={{width:60,height:60}}></img>
             </a>
             <a href='https://www.linkedin.com/in/connor-mcgrath-46349223a/'>
-                <img src='src\utils\images\linkedin.png' alternative='linkedin logo'></img>
+                <img src={linkedin} alternative='linkedin logo' style={{width:60,height:60}}></img>
             </a>
         </div>
     )
