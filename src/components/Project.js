@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import projects from './utils/projects'
 
 const Project = () => {
 
