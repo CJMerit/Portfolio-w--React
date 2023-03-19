@@ -36,3 +36,5 @@ const projects = [
         githubLink: 'https://github.com/CJMerit/Tech-Blog'
     }
 ]
+
+export default projects;

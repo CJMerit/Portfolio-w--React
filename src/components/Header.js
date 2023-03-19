@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Navigation from './components/Navigation';
 
-const Header = () => {
+const Header = ({ projects }) => {
 
 
     return (
         <div className="d-flex flex-row">
             <h1>Portfolio for Connor McGrath</h1>
             <nav>
-                <Navigation />
+                <Navigation projects={ projects }/>
             </nav>
         </div>
     )
