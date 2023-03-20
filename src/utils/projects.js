@@ -6,10 +6,10 @@ const projects = [
         githubLink: 'https://github.com/CJMerit/Fire-Food'
     },
     {
-        title: 'Casual Tryhards',
-        image: 'Casual-Tryhards.png', 
-        deployedLink: 'https://casual-tryhards-app.herokuapp.com/',
-        githubLink: 'https://github.com/CJMerit/Casual-Tryhards-Game-Reviews'
+        title: 'Tech Talker',
+        image: 'Tech-Talker.png', 
+        deployedLink: 'https://we-talk-tech.herokuapp.com/',
+        githubLink: 'https://github.com/CJMerit/Tech-Blog'
     },
     {
         title: 'Fresh Tomatoes',
@@ -17,6 +17,13 @@ const projects = [
         deployedLink: 'https://cjmerit.github.io/fresh-tomatoes/',
         githubLink: 'https://github.com/CJMerit/fresh-tomatoes'
     },
+    {
+        title: 'Casual Tryhards',
+        image: 'Casual-Tryhards.png', 
+        deployedLink: 'https://casual-tryhards-app.herokuapp.com/',
+        githubLink: 'https://github.com/CJMerit/Casual-Tryhards-Game-Reviews'
+    },
+    
     {
         title: 'Quiz Challenge',
         image: 'Quiz-Challenge.png', 
@@ -28,13 +35,7 @@ const projects = [
         image: 'Weather-Getter.png', 
         deployedLink: 'https://cjmerit.github.io/Weather-Forecaster/',
         githubLink: 'https://github.com/CJMerit/Weather-Forecaster'
-    },
-    {
-        title: 'Tech Talker',
-        image: 'Tech-Talker.png', 
-        deployedLink: 'https://we-talk-tech.herokuapp.com/',
-        githubLink: 'https://github.com/CJMerit/Tech-Blog'
-    }
+    }   
 ]
 
 export default projects;

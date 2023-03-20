@@ -1,10 +1,13 @@
 import React from 'react';
+import projects from '../../utils/projects'
 import Project from '../Project'
 
 const Portfolio = () => {
 
     return (
-        <p>Projects will go here</p>
+        <div>
+            <Project projects={projects} />
+        </div>
     )
     
 }

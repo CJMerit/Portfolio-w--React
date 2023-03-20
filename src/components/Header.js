@@ -5,6 +5,8 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+import '../utils/styles/Header.css'
+
 const Header = () => {
     const [currentPage, setCurrentPage] = useState('About')
 
@@ -24,17 +26,17 @@ const Header = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='container-fluid d-flex flex-column justify-content-center'>
+        <header className='container-fluid d-flex flex-column justify-content-center'>
             <div className="row d-flex flex-row">
                 <h1 className='col'>Portfolio for Connor McGrath</h1>
-                <nav className='col navbar text-end'>
+                <nav className='col navbar d-flex flex-wrap text-end'>
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </nav>
             </div>
             <div className='row container-fluid d-flex flex-column justify-content-center align-items-center'>
                 {renderPage()}
             </div>
-        </div>
+        </header>
     )
     
 }

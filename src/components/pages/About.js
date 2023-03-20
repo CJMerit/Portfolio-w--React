@@ -3,10 +3,10 @@ import profile from '../../utils/images/Profile-Picture.png'
 const About = () => {
 
     return (
-        <div className='card d-flex flex-column justify-content-center align-items-center'>
+        <div className='card'>
             <div className='card-body'>
                 <h2 className='card-title fs-1'>
-                    <img className='img-fluid mx-2' src={profile} alternative='profile picture' style={{width:100,height:100,borderRadius:100}}></img>
+                    <img className='img-fluid mx-2' src={profile} alt='Connor McGrath' style={{width:100,height:100,borderRadius:100}}></img>
                     Connor McGrath
                 </h2>
                 <p className='fs-2 card-text'>
