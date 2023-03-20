@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = ({ currentPage, handlePageChange }) => {  
 
     return (
-        <ul className='nav col-'>
+        <ul className='nav'>
             <li className='nav-item'>
                 <a
                     href='#about'

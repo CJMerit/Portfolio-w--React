@@ -1,9 +1,16 @@
 import React from 'react';
 import profile from '../../utils/images/Profile-Picture.png'
+
+const styles = {
+    card: {
+        background: '#006682'
+    }
+}
+
 const About = () => {
 
     return (
-        <div className='card'>
+        <div className='card' style={styles.card}>
             <div className='card-body'>
                 <h2 className='card-title fs-1'>
                     <img className='img-fluid mx-2' src={profile} alt='Connor McGrath' style={{width:100,height:100,borderRadius:100}}></img>

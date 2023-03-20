@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
-        <div>
+        <div className='d-flex flex-column position-relative min-vh-100'>
             <Header />
             <Footer />
         </div>

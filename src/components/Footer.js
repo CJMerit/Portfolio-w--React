@@ -2,11 +2,13 @@ import React from 'react';
 import github from '../utils/images/github.png';
 import linkedin from '../utils/images/linkedin.png';
 
+import '../utils/styles/Footer.css'
+
 const Footer = () => {
 
 
     return (
-        <footer className='container-fluid d-flex flex-row justify-content-center position-relative fixed-bottom'>
+        <footer className='container-fluid d-flex flex-row justify-content-center'>
             <a href='https://github.com/CJMerit'>
                 <img src={github} alt='github logo' style={{width:60,height:60}}></img>
             </a>

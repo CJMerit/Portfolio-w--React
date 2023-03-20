@@ -26,14 +26,14 @@ const Header = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <header className='container-fluid d-flex flex-column justify-content-center'>
+        <header className='container-fluid d-flex flex-column flex-grow-1'>
             <div className="row d-flex flex-row">
                 <h1 className='col'>Portfolio for Connor McGrath</h1>
                 <nav className='col navbar d-flex flex-wrap text-end'>
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </nav>
             </div>
-            <div className='row container-fluid d-flex flex-column justify-content-center align-items-center'>
+            <div className='row container-fluid d-flex flex-column'>
                 {renderPage()}
             </div>
         </header>
