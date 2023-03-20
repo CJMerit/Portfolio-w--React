@@ -26,7 +26,7 @@ const Header = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <header className='container-fluid d-flex flex-column flex-grow-1'>
+        <header className='container-fluid d-flex flex-column flex-grow-1 mb-2'>
             <div className="row d-flex flex-row">
                 <h1 className='col'>Portfolio for Connor McGrath</h1>
                 <nav className='col navbar d-flex flex-wrap text-end'>

@@ -20,7 +20,7 @@ const Project = ({ projects }) => {
                             <img className='card-image mx-2' src={app} alt='deployed app' style={{width:60,height:60}}></img>
                         </a>
                     </div>
-                    <img className='card-image col' src={require(`../utils/images/${project.image}`)} alt={project.title} style={{width:400,height:300}}></img>
+                    <img className='card-image col rounded-end' src={require(`../utils/images/${project.image}`)} alt={project.title} style={{width:400,height:300}}></img>
                 </div>
             ))}
         </div>
