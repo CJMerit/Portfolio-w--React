@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio-w--React/static/css/main.7b088ae0.css",
+    "main.js": "/Portfolio-w--React/static/js/main.86089505.js",
+    "static/media/Fire-Food.png": "/Portfolio-w--React/static/media/Fire-Food.a6c990f0caa6029f48fb.png",
+    "static/media/Fresh-Tomatoes.png": "/Portfolio-w--React/static/media/Fresh-Tomatoes.f8d5b642fc50670b516a.png",
+    "static/media/Casual-Tryhards.png": "/Portfolio-w--React/static/media/Casual-Tryhards.2412516a9800d8c575a9.png",
+    "static/media/Profile-Picture.png": "/Portfolio-w--React/static/media/Profile-Picture.6609a5d7e383fadd0a39.png",
+    "static/media/webpage-screenshot.png": "/Portfolio-w--React/static/media/webpage-screenshot.01789828121d275dc6e4.png",
+    "static/media/Weather-Getter.png": "/Portfolio-w--React/static/media/Weather-Getter.f138c723cd6e9e2ae323.png",
+    "static/media/linkedin.png": "/Portfolio-w--React/static/media/linkedin.c257034fb04f64dddbb3.png",
+    "static/media/app.png": "/Portfolio-w--React/static/media/app.a453247b7cd98a247b83.png",
+    "static/media/Quiz-Challenge.png": "/Portfolio-w--React/static/media/Quiz-Challenge.394438bee5b241ad8d1a.png",
+    "static/media/Tech-Talker.png": "/Portfolio-w--React/static/media/Tech-Talker.b81226aed8d67520fdee.png",
+    "index.html": "/Portfolio-w--React/index.html",
+    "main.7b088ae0.css.map": "/Portfolio-w--React/static/css/main.7b088ae0.css.map",
+    "main.86089505.js.map": "/Portfolio-w--React/static/js/main.86089505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b088ae0.css",
+    "static/js/main.86089505.js"
+  ]
+}
