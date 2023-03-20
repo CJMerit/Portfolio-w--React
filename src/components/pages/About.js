@@ -1,16 +1,10 @@
 import React from 'react';
 import profile from '../../utils/images/Profile-Picture.png'
 
-const styles = {
-    card: {
-        background: '#006682'
-    }
-}
-
 const About = () => {
 
     return (
-        <div className='card' style={styles.card}>
+        <div className='card'>
             <div className='card-body'>
                 <h2 className='card-title fs-1'>
                     <img className='img-fluid mx-2' src={profile} alt='Connor McGrath' style={{width:100,height:100,borderRadius:100}}></img>
@@ -26,6 +20,10 @@ const About = () => {
                     Second, I am a lover of technology. Learning the ins and outs of all different 
                     forms of tech is my passion in life, and I am always learning new techniques for 
                     development.
+                    <br></br>
+                    <br></br>
+                    Click the images at the bottom of the page to see my Github and my LinkedIn. Feel free to 
+                    contact me via email by filling out the contact form. Thank you for your correspondence.
                 </p>
             </div>
         </div>
