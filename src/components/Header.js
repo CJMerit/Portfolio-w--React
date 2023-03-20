@@ -31,7 +31,7 @@ const Header = () => {
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </nav>
             </div>
-            <div className='row'>
+            <div className='row container-fluid d-flex flex-column justify-content-center align-items-center'>
                 {renderPage()}
             </div>
         </div>

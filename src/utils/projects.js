@@ -1,7 +1,7 @@
 const projects = [
     {
         title: 'Fire Food',
-        image: 'Fire-Food.png', 
+        image: 'Fire-Food.png',
         deployedLink: 'https://menu-item-rater.herokuapp.com/',
         githubLink: 'https://github.com/CJMerit/Fire-Food'
     },

@@ -6,7 +6,7 @@ const Footer = () => {
 
 
     return (
-        <div className='container-fluid d-flex flex-row justify-content-center fixed-bottom'>
+        <div className='container-fluid d-flex flex-row justify-content-center position-relative fixed-bottom'>
             <a href='https://github.com/CJMerit'>
                 <img src={github} alternative='github logo' style={{width:60,height:60}}></img>
             </a>
